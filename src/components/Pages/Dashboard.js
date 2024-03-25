@@ -1,9 +1,9 @@
 import React from "react";
 
-export const Contact = () => {
+export const DashBoard = () => {
   return (
     <div>
-      <h1>Contact Us</h1>
+      <h1>DashBoard</h1>
     </div>
   );
 };

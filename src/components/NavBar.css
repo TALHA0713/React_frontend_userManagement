@@ -9,10 +9,10 @@
   top: 0;
   z-index: 20;
 }
-
 .nav-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 80px;
@@ -33,7 +33,14 @@
   align-items: center;
   justify-items: center;
 }
+/* .last{
+  display: flex;
+}
 
+.center{
+  align-items: center;
+  display: flex;
+} */
 .nav-logo .icon {
   display: inline-block;
   width: 3rem;
@@ -46,6 +53,18 @@
   list-style: none;
   text-align: center;
   margin-right: 2rem;
+}
+.nav-menu-container {
+  display: flex;
+  justify-content: center; /* Added to center the menu container */
+  align-items: center;
+  flex-grow: 2; /* Added to give the menu container more space */
+}
+
+.nav-actions {
+  display: flex;
+  justify-content: flex-end; /* Added to align the actions to the right */
+  flex-grow: 1; /* Added to give the actions container space */
 }
 
 .nav-links {
